@@ -1,197 +1,147 @@
 ################################# Slider #####################################
 slider:
-  enable: true
-  bg_image: "images/banner/banner-1.jpg"
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title: "The world is becoming increasingly data-driven"
-      content: "Machine learning & AI is one of those transformational technologies 
-                that occur once per generation.
-                It is already embedded in services and products we use every day."
-      animation_in: "left"
-      animation_out: "right"
-      # available animation: left, right, up, down
+    - title : "Your bright future is our mission"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
       button:
-        enable: true
-        label: "What we do" # Who we are # What we do
-        link: "about"
+        enable : true
+        label : "Apply now"
+        link : "contact"
 
     # slider item loop
-    - title: "Many industries are being profoundly transformed"
-      content: "Machine learning is the ultimate optimization tool.
-                Helps create new products and services.
-                Cuts costs. Automates processes."
-      animation_in: "left"
-      animation_out: "right"
-      # available animation: left, right, up, down
+    - title : "Your bright future is our mission"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
       button:
-        enable: true
-        label: "What we do" # Who we are # What we do
-        link: "about"
+        enable : true
+        label : "Apply now"
+        link : "contact"
 
     # slider item loop
-    - title: "It is crucially important to stay ahead of the game"
-      content: "Make sure to keep up with the tranformation.
-                We may be able to help you with that."
-      animation_in: "left"
-      animation_out: "right"
-      # available animation: left, right, up, down
+    - title : "Your bright future is our mission"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
       button:
-        enable: true
-        label: "What we do" # Who we are # What we do
-        link: "about" # insert correct link
-
-
-############################## about ##################################
-about:
-  enable: true
-  title: "About Qauzativ"
-  image: "images/about/about-us.jpg"
-  content: "We develop open source and SaaS applications for datawarehousing 
-  and machine learning. 
-  The data comes from credit bureau & insurance reports, CRM, ERP and similar
-  sources of business data.
-
-  \n
-
-  Our data analytics, ML and DL training programs leverage the codebase from 
-  our own applications, and for better learning experience, trainees build  
-  solutions of your choice besides working though the curriculum's projects."
-  button:
-    enable: true
-    label: "About us"
-    link: "about" # insert correct link
+        enable : true
+        label : "Apply now"
+        link : "contact"
 
 
 ############################### Banner feature ###############################
 banner_feature:
-  enable: true
-  image: "images/banner/banner-feature.png"
+  enable : true
+  image : "images/banner/banner-feature.png"
   feature_item:
+    # feature item loop
+    - name : "Scholorship News"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
     # feature item loop
-    - name: "Open source and free"
-      icon: "ti-blackboard" # icon pack: https://themify.me/themify-icons
-      content: "Download Qauzativ Community: deploy a database, clean & 
-                augment data, engineer features, perform data analytics & 
-                predictive modeling with free and open source code that 
-                runs in-database"
+    - name : "Our Notice Board"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
     # feature item loop
-    - name: "SaaS applications"
-      icon: "ti-agenda" # icon pack: https://themify.me/themify-icons
-      content: "Pondering the 'Build vs Buy' dilemma, consider SaaS instead - 
-                easy integration, light-weight, customized to your requirements, 
-                cost efficient -- datawarehouse + models in Azure"
+    - name : "Our Achievements"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
     # feature item loop
-    - name: "A universe of data"
-      icon: "ti-book" # icon pack: https://themify.me/themify-icons
-      content: "**Common Data Model** that underpins Microsoft Dynamics 
-                is the foundation of Qauzativ DWH database schema -- 
-                all sorts of business data (ERP, CRM) are supported "
+    - name : "Admission Now"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
-    # feature item loop
-    - name: "Training = Solutions"
-      icon: "ti-write" # icon pack: https://themify.me/themify-icons
-      content: "This is not yet another maching learning course. 
-                We guide trainees through lectures, seminars and project labs 
-                towards building real-life solutions your company requires "
 
-      
+############################## about ##################################
+about:
+  enable : true
+  title : "About Educenter"
+  image : "images/about/about-us.jpg"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
+
+
+  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about"
+
+
+############################# Course ################################
+course:
+  enable : true
+  title : "Our Course"
+  # course item comes from "content/**/course" folder.
+
 ########################## Call to action ############################
 cta:
-  enable: true
-  title: "Why Qauzativ?"
-  subtitle: "or see below: key DWH + ML deliverables"
+  enable : true
+  subtitle : "Click to Join the Advance Workshop"
+  title : "Training In Advannce Networking"
   button:
-    enable: true
-    label: "Go to product page"
-    link: "product"
-
-
-############################# product ################################
-product:
-  enable: true
-  # title: "Key ML + DWH deliverables"
-  content: ""
-  
-  # product items come from "content/**/product" folder.
-
-
-########################## Call to action #2 ############################
-cta2:
-  enable: true
-  title: "Training = Solutions"
-  subtitle: "or see below: ML tracks"
-  button:
-    enable: true
-    label: "Go to product page"
-    link: "training"
-
-
-############################# training ################################
-training:
-  enable: true
-  title: "DSML training tracks"
-  content: ""
-  
-  # training items come from "content/**/training" folder.
-
-  
-########################### funfacts ############################
-funfacts:
-  enable: true
-  funfact_item:
-    # funfact item loop
-    - name: "Teachers"
-      count: "5"
-
-    # funfact item loop
-    - name: "Courses taught"
-      count: "7"
-
-    # funfact item loop
-    - name: "Trainees enrolled"
-      count: "58"
-
-    # funfact item loop
-    - name: "Corporate clients"
-      count: "14"
-
-# This element, named "Fun facts" is displayed on the homepage and in the `about` page
-# It is generated by a block of code, not a separate partial
+    enable : true
+    label : "join now"
+    link : "contact"
 
 
 ######################## Success story #############################
 success_story:
-  enable: true
-  bg_image: "images/backgrounds/success-story.jpg"
-  title: "Name of the section"
-  content: "This section is created by partial `success-story.html`
-
-  \n
-    
-  part #1 of the text for success story
-
-  \n
-  
-  part #2 of the text for success story "
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Success Stories"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+            
+            
+  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
   # video link
-  video_link: "https://www.youtube.com/watch?v=ResipmZmpDU"
-
-# This element, named "Success story" is displayed on the homepage and in the `about` page
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
 
 
 ############################# event ################################
 event:
-  enable: true
-  title: "Upcoming Events"
+  enable : true
+  title : "Upcoming Events"
   # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "TEACHERS"
+      count : "60"
+
+    # funfact item loop
+    - name : "COURSES"
+      count : "50"
+
+    # funfact item loop
+    - name : "STUDENTS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "SATISFIED CLIENT"
+      count : "1400"
+
+# funfact is for about page
+
 
 
 ############################# blog ################################
 blog:
-  enable: true
-  title: "Latest blog posts"
+  enable : true
+  title : "Latest News"
   # blog item comes from "content/**/blog" folder.
