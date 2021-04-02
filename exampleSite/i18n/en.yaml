@@ -11,7 +11,7 @@
   translation: Contact Info
 
 - id: subscribe_newsletter
-  translation: Subscribe Newsletter
+  translation: Subscribe to our newsletters
 
 - id: subscribe
   translation: Subscribe
@@ -47,7 +47,16 @@
   translation: Category
 
 - id: related_course
-  translation: Related Course
+  translation: Related courses
+
+- id: related_product
+  translation: Related products
+
+- id: related_training
+  translation: Related training programs
+
+- id: related
+  translation: Related
 
 - id: duration
   translation: duration
@@ -77,7 +86,7 @@
   translation: Join
   
 - id: enter_email
-  translation: Enter your email…
+  translation: Enter your email
 
 - id: company
   translation: company
@@ -89,7 +98,7 @@
   translation: Courses
 
 - id: new_notice
-  translation: new notice
+  translation: New notice
 
 - id: call
   translation: call
@@ -101,8 +110,8 @@
   translation: All
 
 - id: interest
-  translation: SUMMARY OF ACTIVITIES/INTERESTS
-
+  translation: Summary of activities/interests
+  
 - id: our_teachers
   translation: Our Teachers
 
