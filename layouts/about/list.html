@@ -6,9 +6,9 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-9">
         {{ with .Params.image }}
-        <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
+        <img style="height: 300px;width: 100%;object-fit: cover;" class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
         {{ end }}
         {{ .Content }}
       </div>

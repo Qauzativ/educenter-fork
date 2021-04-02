@@ -1,5 +1,6 @@
 {{ "<!-- sidebar -->" | safeHTML }}
 <aside class="col-lg-4 order-1 order-lg-2">
+    
   {{ "<!-- categories -->" | safeHTML }}
   <div class="bg-white mb-5">
     <h4 class="mb-4">{{ i18n "categories" }}</h4>
@@ -13,6 +14,7 @@
     {{- end }}
     {{- end }}
   </div>
+
   {{ "<!-- tags -->" | safeHTML }}
   <div class="bg-white mb-5">
     <h4 class="mb-4">{{ i18n "tags" }}</h4>
@@ -26,6 +28,7 @@
     {{- end }}
     {{- end }}
   </div>
+
   {{ "<!-- latest post -->" | safeHTML }}
   <div class="bg-white">
     <h4 class="mb-4">{{ i18n "latest_article" }}</h4>

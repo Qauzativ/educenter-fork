@@ -2,7 +2,7 @@
 
 {{ $data := index site.Data site.Language.Lang }}
 
-<!-- courses -->
+<!-- deliverables -->
 <section class="section">
   <div class="container">
 
@@ -15,20 +15,20 @@
         </div>
       </div>
 
-    <!-- course list -->
-    <div class="row">
+    <!-- deliverables list -->
     <!-- <div class="row justify-content-center"> -->
-      <!-- course item -->
+    <div class="row">
+      <!-- deliverables item -->
       {{ range .Data.Pages }}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course" }}
+        {{ .Render "deliverables" }}
       </div>
       {{ end }}
     </div>
-    <!-- /course list -->
+    <!-- /deliverables list -->
 
   </div>
 </section>
-<!-- /courses -->
+<!-- /deliverables -->
 
 {{ end }}

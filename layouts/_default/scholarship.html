@@ -2,6 +2,9 @@
   <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="scholarship-thumb">
   <div class="card-body">
     <h4 class="card-title mb-3">{{ .Title }}</h4>
-    <div class="content">{{ .Content }}</div>
+    <!-- <div class="content">{{ .Content }}</div> -->
+    <p class="card-text">{{ .Summary }}</p>
+    <!-- <p class="card-text">{{ .Summary | truncate 100 }}</p> -->
+    <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more" }}</a>
   </div>
 </div>

@@ -1,8 +1,11 @@
 {{ define "main" }}
 
+{{ $data := index site.Data site.Language.Lang }}
+
 <!-- scholarship -->
 <section class="section">
   <div class="container">
+
     <div class="row mb-5">
       <div class="col-md-6 mb-4 mb-md-0">
         <img class="img-fluid" src="{{ .Params.image | relURL }}" alt="scholarship news">
@@ -11,6 +14,9 @@
         {{ .Content }}
       </div>
     </div>
+
+    <!-- scholarship list -->
+    <!-- <div class="row justify-content-center"> -->
     <div class="row">
       <!-- scholarship item -->
       {{ range .Data.Pages }}
@@ -19,6 +25,8 @@
       </div>
       {{ end }}
     </div>
+    <!-- scholarship list -->
+
   </div>
 </section>
 <!-- /scholarship -->

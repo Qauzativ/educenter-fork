@@ -10,4 +10,7 @@
       {{ end }}
     </ul>
   </div>
+  <!-- Added "read more" button because only the name of the teacher was clickable;
+  the picture wasn't clickable; now there is a standard "read more" button. -->
+  <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more" }}</a>
 </div>
