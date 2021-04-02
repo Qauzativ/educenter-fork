@@ -8,20 +8,20 @@ bg_image: "images/backgrounds/page-title.jpg"
 image: "images/about/about-page.jpg"
 # meta description
 description : "description of the 'About us' section "
-# taxonomy
-category: "Photography"
-# teacher
-teacher: "Duis Rio"
-# duration
-duration: "06 Month"
-# weekly
-weekly: "03 hours"
-# course fee
-fee: "From: $699"
-# apply url
-apply_url: "#"
-# download link
-download_link: "#"
+# # taxonomy
+# category: "Photography"
+# # teacher
+# teacher: "Duis Rio"
+# # duration
+# duration: "06 Month"
+# # weekly
+# weekly: "03 hours"
+# # course fee
+# fee: "From: $699"
+# # apply url
+# apply_url: "#"
+# # download link
+# download_link: "#"
 # type
 # type: "course" # "course"  # "research" # "event" # "notice"
 ---
