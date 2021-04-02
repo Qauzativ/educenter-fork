@@ -132,12 +132,22 @@ url = "about"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "course"
-url = "course"
+name = "Why Qauzativ?"
+url = "product"
 weight = 2
 
 [[Languages.en.menu.main]]
+name = "Training = Solutions"
+url = "training"
 weight = 3
+
+[[Languages.en.menu.main]]
+name = "course"
+url = "course"
+weight = 4
+
+[[Languages.en.menu.main]]
+weight = 5
 name = "Pages"
 hasChildren = true
 
@@ -169,12 +179,12 @@ url = "research"
 [[Languages.en.menu.main]]
 name = "blog"
 url = "blog"
-weight = 4
+weight = 6
   
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact"
-weight = 5
+weight = 7
 
 
 # footer menu
